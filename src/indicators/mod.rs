@@ -58,3 +58,7 @@ pub use self::money_flow_index::MoneyFlowIndex;
 
 mod on_balance_volume;
 pub use self::on_balance_volume::OnBalanceVolume;
+
+mod williams_fractal;
+pub use self::williams_fractal::WilliamsFractal;
+pub use self::williams_fractal::WilliamsFractalType;
